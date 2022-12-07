@@ -66,5 +66,5 @@ def theTweet(tweet_results):
 res = theTweet(tweet_results)
 
 for tweet in res:
-    components.html(tweet)
+    components.html(tweet, height=400, scroll=True)
 
