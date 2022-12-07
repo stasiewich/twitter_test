@@ -68,5 +68,4 @@ res = theTweet(tweet_results)
 with st.expander("Load live feed"):
   st.write("Tag rink using #RinkName to provide real time updates on conditions, games, etc.")
   for tweet in res:
-      components.html(tweet)
-      st.test = components.html(tweet, height=300, scrolling=True)
+      st.test = components.html(tweet, height=400, scrolling=True)
